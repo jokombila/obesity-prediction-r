@@ -15,9 +15,9 @@
 
 ## English
 
-### The question in plain words
+### Overview
 
-Obesity is a major public health issue. A simple question from a clinician's point of view is: **given a few routine measurements and habits (age, diet, vitamins, fast-food frequency, weight, height, whether a doctor has ever advised to exercise, etc.), can we reliably tell whether a person is obese?**
+Obesity is a major public health issue. From a clinician's point of view, a simple question arises: given a few routine measurements and habits (age, diet, vitamins, fast-food frequency, weight, height, whether a doctor has ever advised to exercise, and so on), can we reliably tell whether a person is obese?
 
 This project builds and compares three statistical models that answer that question. The goal is not to replace a medical diagnosis, but to show how a prediction tool could support screening by flagging people who are most likely to be obese and who would benefit from a closer medical follow-up.
 
@@ -68,7 +68,6 @@ NHANES data is free and public, and can be downloaded from the CDC website. The 
 
 | Metric | Classification tree | Random forest | XGBoost |
 |--------|---------------------|---------------|---------|
-| Accuracy | 76.2 % | higher | higher |
 | Sensitivity (obese correctly detected) | 57.2 % | 70.5 % | **72.9 %** |
 | Specificity (non-obese correctly detected) | 85.3 % | 76.1 % | 73.4 % |
 | F1-score | 61 % | 64 % | 64 % |
@@ -132,9 +131,9 @@ Requirements: R 4.2 or later and RStudio (recommended).
 
 ## Français
 
-### La question en langage courant
+### Présentation
 
-L'obésité est un enjeu majeur de santé publique. Du point de vue d'un clinicien, une question simple se pose : **à partir de quelques mesures et habitudes de routine (âge, alimentation, vitamines, fréquence des fast-foods, poids, taille, conseil médical d'augmenter l'activité physique, etc.), peut-on déterminer de façon fiable si une personne est obèse ?**
+L'obésité est un enjeu majeur de santé publique. Du point de vue d'un clinicien, une question simple se pose : à partir de quelques mesures et habitudes de routine (âge, alimentation, vitamines, fréquence des fast-foods, poids, taille, conseil médical d'augmenter l'activité physique, etc.), peut-on déterminer de façon fiable si une personne est obèse ?
 
 Ce projet construit et compare trois modèles statistiques qui répondent à cette question. L'objectif n'est pas de remplacer un diagnostic médical, mais de montrer comment un outil de prédiction peut aider au dépistage en signalant les personnes les plus susceptibles d'être obèses et qui bénéficieraient d'un suivi médical plus approfondi.
 
@@ -185,7 +184,6 @@ Les données NHANES sont gratuites et publiques, téléchargeables sur le site d
 
 | Métrique | Arbre de classification | Forêt aléatoire | XGBoost |
 |----------|-------------------------|------------------|---------|
-| Accuracy | 76,2 % | supérieure | supérieure |
 | Sensibilité (obèses correctement détectés) | 57,2 % | 70,5 % | **72,9 %** |
 | Spécificité (non obèses correctement détectés) | 85,3 % | 76,1 % | 73,4 % |
 | F1-score | 61 % | 64 % | 64 % |
