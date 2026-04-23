@@ -1,0 +1,29 @@
+# Report (kept local, not published)
+Rapport_Java_BOUSLIMANI_KOMBILA.docx
+*.docx
+*.pdf
+
+# Raw NHANES data files (not redistributed, downloaded by the user)
+*.xpt
+*.XPT
+data/
+raw/
+
+# R session and build artifacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
